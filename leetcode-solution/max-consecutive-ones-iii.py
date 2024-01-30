@@ -2,6 +2,8 @@ class Solution:
     def longestOnes(self, nums: List[int], k: int) -> int:
         l = 0
         maxi = 0
+        [1,1,1,0,0,0,1,1,1,1,0]
+        
 
         for r,n in enumerate(nums):
             k -= (1-n)
